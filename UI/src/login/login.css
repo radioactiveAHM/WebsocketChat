@@ -1,0 +1,32 @@
+.login{
+    background-color: darkslategray;
+    width: 50%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.login>*{
+    height: 30px;
+    border: none;
+    padding: 5px;
+}
+.login>input{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.login>button{
+    background-color: rgb(56, 59, 82);
+    width: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+@media screen and (max-width: 500px) {
+    .login{
+        width: 90%;
+    }
+    .login>input{
+        width: 70%;
+    }
+}

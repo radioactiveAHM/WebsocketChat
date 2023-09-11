@@ -1,0 +1,14 @@
+.image{
+    position: absolute;
+    left: 50px;
+    bottom: 8vh;
+    width: 40px;
+    height: 40px;
+    background-color: darkslategray;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+
+    display: grid;
+    place-content: center;
+}

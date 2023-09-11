@@ -1,0 +1,29 @@
+.type{
+    position: relative;
+    height: 100%;
+    display: flex;
+    padding: 5px;
+}
+.type>input{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1rem;
+    flex-grow: 1;
+    border-bottom-left-radius: 30px;
+    border: none;
+}
+.type>button{
+    width: 30px;
+    border: none;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(56, 59, 82);
+}
+
+@media screen and (max-width: 500px) {
+    .type>input{
+        border-bottom-left-radius: 0;
+    }
+    .type>button{
+        border-bottom-right-radius: 0;
+    }
+}
